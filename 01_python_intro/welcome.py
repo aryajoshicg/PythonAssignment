@@ -1,0 +1,2 @@
+print("Python is a high-level, interpreted programming language known for its clear syntax and readability. It is one of the most popular languages in the world, used heavily in web development, data science, artificial intelligence, and automation.")
+#Description of Python
