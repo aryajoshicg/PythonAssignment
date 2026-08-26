@@ -1,0 +1,9 @@
+#differences
+cgpa=10
+rating=10.0
+time="10"
+present=True
+absent="True"
+backlog=None
+score="None"
+print("differences",cgpa,rating,time,present,absent,backlog,score,type(cgpa),type(rating),type(time),type(present),type(absent),type(backlog),type(score))

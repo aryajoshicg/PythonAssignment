@@ -1,0 +1,8 @@
+#name
+age=20
+name="sushmita"
+attendence=True
+cgpa=9.8
+result=None
+int_to_bool=bool(age)
+print(age,name,attendence,cgpa,result,int_to_bool,type(age),type(name),type(attendence),type(cgpa),type(result),type(int_to_bool))

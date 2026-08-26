@@ -1,0 +1,3 @@
+product_price=65
+product_quantity=5
+print(product_price*product_quantity)

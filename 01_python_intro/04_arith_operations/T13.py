@@ -1,0 +1,12 @@
+a=True
+b=False
+#print("True"+"False")
+#print("True"-"False")
+#print("True"*"False")
+#print(True+False)
+#print(True-False)
+#print(True*False)
+#print(True/False)
+#print(True//False)
+#print(True%False)
+print(True**False)
