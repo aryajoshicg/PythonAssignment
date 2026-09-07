@@ -1,0 +1,13 @@
+first_name = input("Enter your first name:")
+last_name = input("Enter your last name:")
+city = input("Enter your city:")
+Course = input("Enter your course of study:")
+age = input("Enter your age:")
+print(first_name.strip(), last_name.strip())
+print(first_name.upper(), last_name.upper())
+print(first_name.lower(), last_name.lower())
+print(first_name.title(), last_name.title())
+print(len(first_name), len(last_name))
+print(first_name[:1])
+print(last_name[9:])
+
