@@ -712,7 +712,7 @@ print("Z")
 **Your output:**
 
 ``` text
-doubt
+XYXXYXYZ
 ```
 
 ### Q35. Predict Carefully
