@@ -530,8 +530,6 @@ row = 1
 
 
 
-
-
 # def addition():
 #     num = int(input("Enter a number: "))
 #     num2 = int(input("Enter a number: "))
@@ -570,9 +568,58 @@ row = 1
 #     num = int(input("Enter a number: "))
 #     if num%
 
-for i in range(1, 5):
-    print("X", end="")
-    if i == 2:
-        continue
-    print("Y", end="")
-print("Z")
+# for i in range(1, 5):
+#     print("X", end="")
+#     if i == 2:
+#         continue
+#     print("Y", end="")
+# print("Z")
+
+# acc_balance = 30000
+# def check_balance():
+#     print("Current balance:",acc_balance)
+
+# def credit_balance():
+#     num = int(input("Enter the amount: "))
+#     print("Amount credited successfully! Current balance: ", acc_balance+num)
+
+# def withdrawal_balance():
+#     num = int(input("Enter the amount: "))
+#     if num>30000:
+#         print("Insufficient balance, try again!")
+#     else:
+#         print("Amount withdrawal successful! Current balance: ", acc_balance-num)
+
+# menu = int(input("Available options: 1 check balance, 2 credit balance, 3 withdrawal: "))
+# match menu:
+#     case 1:
+#         check_balance()
+#     case 2:
+#         credit_balance()
+#     case 3:
+#         withdrawal_balance()
+#     case _:
+#         print("Invalid input")
+
+
+# a = 8
+# b = 65
+# def multiply(a,b):
+#     b = "Python is an interpreted language"
+#     return a*b
+
+# print(multiply(a,b))
+
+a = 10
+b = 20
+c = 40
+d = 3
+def add(a,b):
+    c = a + b
+    return c
+def sub(a, b):
+    return a-b
+def multi(a,b):
+    return abs(a*b)
+
+print(multi(sub(add(a,b),c),d))
