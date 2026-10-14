@@ -32,7 +32,7 @@ match choice:
 
 **What will be the output?**
 
----
+Add
 
 ## Q2
 
@@ -52,7 +52,7 @@ match choice:
 
 **What will be the output?**
 
----
+Three
 
 ## Q3
 
@@ -72,7 +72,7 @@ match choice:
 
 **What will be the output?**
 
----
+Invalid
 
 ## Q4
 
@@ -92,7 +92,7 @@ match number:
 
 **What will be the output?**
 
----
+Second
 
 ## Q5
 
@@ -120,7 +120,7 @@ match day:
 
 **What will be the output?**
 
----
+Sunday
 
 # Set 2 — `case _`
 
@@ -142,7 +142,7 @@ match value:
 
 **What will be the output?**
 
----
+Ten
 
 ## Q7
 
@@ -162,7 +162,7 @@ match value:
 
 **What will be the output?**
 
----
+Other
 
 ## Q8
 
@@ -182,7 +182,7 @@ match choice:
 
 **What will be the output?**
 
----
+Invalid Choice
 
 # Set 3 — String Matching
 
@@ -204,7 +204,7 @@ match color:
 
 **What will be the output?**
 
----
+Stop
 
 ## Q10
 
@@ -224,7 +224,7 @@ match color:
 
 **What will be the output?**
 
----
+Go
 
 ## Q11
 
@@ -244,7 +244,7 @@ match command:
 
 **What will be the output?**
 
----
+Starting
 
 ## Q12
 
@@ -264,7 +264,7 @@ match command:
 
 **What will be the output?**
 
----
+Unknown Command
 
 # Set 4 — Multiple Values Using `|`
 
@@ -284,7 +284,7 @@ match day:
 
 **What will be the output?**
 
----
+Weekday
 
 ## Q14
 
@@ -302,7 +302,7 @@ match day:
 
 **What will be the output?**
 
----
+Weekend
 
 ## Q15
 
@@ -320,7 +320,7 @@ match number:
 
 **What will be the output?**
 
----
+Even Group
 
 ## Q16
 
@@ -338,7 +338,7 @@ match number:
 
 **What will be the output?**
 
----
+Other
 
 # Set 5 — Match-Case with Input
 
@@ -368,7 +368,7 @@ match choice:
 
 **What will be the output?**
 
----
+Delete
 
 ## Q18
 
@@ -396,7 +396,7 @@ match choice:
 
 **What will be the output?**
 
----
+Invalid Option
 
 ## Q19
 
@@ -428,7 +428,7 @@ match day:
 
 **What will be the output?**
 
----
+Weekend or Invalid
 
 # Set 6 — Multiple Print Statements
 
@@ -450,7 +450,8 @@ match choice:
 
 **What will be the output?**
 
----
+Second
+Option
 
 ## Q21
 
@@ -473,7 +474,8 @@ match number:
 
 **What will be the output?**
 
----
+E
+F
 
 # Set 7 — Nested `match-case`
 
@@ -502,7 +504,7 @@ match category:
 
 **What will be the output?**
 
----
+Courses
 
 ## Q23
 
@@ -529,7 +531,7 @@ match category:
 
 **What will be the output?**
 
----
+Marks
 
 ## Q24
 
@@ -558,7 +560,7 @@ match category:
 
 **What will be the output?**
 
----
+Students
 
 ## Q25
 
@@ -585,7 +587,7 @@ match category:
 
 **What will be the output?**
 
----
+Invalid Student Choice
 
 # Set 8 — `if` + `match-case`
 
@@ -611,7 +613,7 @@ match choice:
 
 **What will be the output?**
 
----
+Allowed
 
 ## Q27
 
@@ -635,7 +637,7 @@ match choice:
 
 **What will be the output?**
 
----
+Not Allowed
 
 ## Q28
 
@@ -659,7 +661,7 @@ match choice:
 
 **What will be the output?**
 
----
+Exit
 
 # Set 9 — Match-Case with Simple Expressions
 
@@ -683,7 +685,7 @@ match choice:
 
 **What will be the output?**
 
----
+15
 
 ## Q30
 
@@ -705,7 +707,7 @@ match choice:
 
 **What will be the output?**
 
----
+5
 
 ## Q31
 
@@ -727,7 +729,7 @@ match choice:
 
 **What will be the output?**
 
----
+50
 
 # Set 10 — Slightly Tricky
 
@@ -747,7 +749,7 @@ match value:
 
 **What will be the output?**
 
----
+One
 
 ## Q33
 
@@ -765,7 +767,7 @@ match value:
 
 **What will be the output?**
 
----
+String
 
 ## Q34
 
@@ -785,7 +787,7 @@ match value:
 
 **What will be the output?**
 
----
+B
 
 ## Q35
 
@@ -803,7 +805,7 @@ match value:
 
 **What will be the output?**
 
----
+Go
 
 # Challenge Set
 
@@ -826,7 +828,7 @@ match choice:
 
 **What will be the output?**
 
----
+20
 
 ## Q37
 
@@ -855,7 +857,7 @@ match category:
 
 **What will be the output?**
 
----
+Attendence
 
 ## Q38
 
@@ -885,7 +887,7 @@ match choice:
 
 **What will be the output?**
 
----
+Not Allowed
 
 ## Q39
 
@@ -903,7 +905,7 @@ match day:
 
 **What will be the output?**
 
----
+Holiday
 
 ## Q40
 
@@ -933,7 +935,7 @@ match command:
 
 **What will be the output?**
 
----
+Pause Video
 
 # Bonus — Guard Practice
 
@@ -957,7 +959,7 @@ match marks:
 
 **What will be the output?**
 
----
+B
 
 ## Q42
 
@@ -979,7 +981,7 @@ match marks:
 
 **What will be the output?**
 
----
+D
 
 ## Q43
 
@@ -997,7 +999,7 @@ match number:
 
 **What will be the output?**
 
----
+Negetive
 
 ## Q44
 
@@ -1015,56 +1017,58 @@ match number:
 
 **What will be the output?**
 
----
+Zero
 
 # Student Answer Sheet
 
 | Question | Your Output |
 |---|---|
-| Q1 | |
-| Q2 | |
-| Q3 | |
-| Q4 | |
-| Q5 | |
-| Q6 | |
-| Q7 | |
-| Q8 | |
-| Q9 | |
-| Q10 | |
-| Q11 | |
-| Q12 | |
-| Q13 | |
-| Q14 | |
-| Q15 | |
-| Q16 | |
-| Q17 | |
-| Q18 | |
-| Q19 | |
-| Q20 | |
-| Q21 | |
-| Q22 | |
-| Q23 | |
-| Q24 | |
-| Q25 | |
-| Q26 | |
-| Q27 | |
-| Q28 | |
-| Q29 | |
-| Q30 | |
-| Q31 | |
-| Q32 | |
-| Q33 | |
-| Q34 | |
-| Q35 | |
-| Q36 | |
-| Q37 | |
-| Q38 | |
-| Q39 | |
-| Q40 | |
-| Q41 | |
-| Q42 | |
-| Q43 | |
-| Q44 | |
+| Q1 | Add |
+| Q2 | Three |
+| Q3 | Invalid |
+| Q4 | Second |
+| Q5 | Sunday |
+| Q6 | Ten |
+| Q7 | Other |
+| Q8 | Invalid Choice |
+| Q9 | Stop |
+| Q10 | Go |
+| Q11 | Starting |
+| Q12 | Unknown Command |
+| Q13 | Weekday |
+| Q14 | Weekend |
+| Q15 | Even Group |
+| Q16 | Other |
+| Q17 | Delete |
+| Q18 | Invalid Option |
+| Q19 | Weekend or Invalid |
+| Q20 | Second
+Option |
+| Q21 | E
+F |
+| Q22 | Courses |
+| Q23 | Marks |
+| Q24 | Students |
+| Q25 | Invalid Student Choice |
+| Q26 | Allowed |
+| Q27 | Not Allowed |
+| Q28 | Exit |
+| Q29 | 15 |
+| Q30 | 5 |
+| Q31 | 50 |
+| Q32 | One |
+| Q33 | String |
+| Q34 | B |
+| Q35 | Go |
+| Q36 | 20 |
+| Q37 | Attendence |
+| Q38 | Not Allowed |
+| Q39 | Holiday |
+| Q40 | Pause Video |
+| Q41 | B |
+| Q42 | D |
+| Q43 | Negetive |
+| Q44 | Zero |
 
 ---
 
