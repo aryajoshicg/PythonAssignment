@@ -610,16 +610,87 @@ row = 1
 
 # print(multiply(a,b))
 
-a = 10
-b = 20
-c = 40
-d = 3
-def add(a,b):
-    c = a + b
-    return c
-def sub(a, b):
-    return a-b
-def multi(a,b):
-    return abs(a*b)
+# a = 10
+# b = 20
+# c = 40
+# d = 3
+# def add(a,b):
+#     c = a + b
+#     return c
+# def sub(a, b):
+#     return a-b
+# def multi(a,b):
+#     return abs(a*b)
 
-print(multi(sub(add(a,b),c),d))
+# print(multi(sub(add(a,b),c),d))
+
+
+# def operations(a,b):
+#     sum = a+b
+#     diff = a-b
+#     multi = a*b
+#     return sum, diff, multi
+
+# solution1, solution2, solution3 = operations(7,5)
+# print(solution1, solution2, solution3)
+
+# def order(item, quantity=2, price=50):
+#     print(item, quantity, price)
+
+# order("Notebook")
+# order("Notebook", 3)
+# order("Notebook", price=40)
+# order("Notebook", 3, 40)
+
+# def counter_fun(count):
+#     count=count+1
+#     if (count==6):
+#         return count
+#     return counter_fun(count)
+# print(counter_fun(3))
+
+# n = 6
+# for i in range(1, n+1):
+#     for j in range(1, n+1):
+#         if i * j > n:
+#             continue
+#         else:
+#             print(i*j, end=" ")
+#     print()
+
+
+# n = int(input("Enter a number: "))
+# for i in range(1, n+1):
+#     for j in range(1,n+1):
+#         if j%i==0:
+#             print(j, end=" ")
+#         else:
+#             pass
+#     print()
+
+
+# Square Calculator except for square of 4
+# def factorial(num):
+#     if(num!=4):
+#         return num*num
+# print(factorial(num=9))
+
+# for row in range(6):
+#     for col in range(7):
+#         if (row == 0 and col % 3 != 0) or (row == 1 and col % 3 == 0) or (row - col == 2) or (row + col == 8):
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+    #by siri
+
+# def divide(c, *args, d=20, **kwargs):
+#     print(type(kwargs))
+#     print(type(args))
+#     return args, kwargs, c+d
+# print(divide(14, 5, 2, 32, 45, p=56))
+
+n = input("Enter a string: ").lower()
+for i in len(n):
+    if n[i]=="apple":
+        print("Found")
